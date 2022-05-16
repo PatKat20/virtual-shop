@@ -84,7 +84,7 @@ img{
     align-items: flex-start;
     flex-direction:column;
     padding:0 80px;
-    background-image:url(img/slide3.jpg);
+    background-image:url(../img/slide3.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     color:white;
@@ -275,7 +275,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:url(img/banner_feminino.png);
+    background-image:url(../img/banner_feminino.png);
     background-size:cover;
     height:40vh;
     width:100%;
@@ -327,9 +327,9 @@ img{
 /* Newsletter area */
 #newsletter{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
-    padding:60px 80px;
+    padding:60px 0;
     background-color:#031839;
     margin:40px 0;
 }
